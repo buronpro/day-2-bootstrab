@@ -1,0 +1,87 @@
+.container {
+    width: 700px;
+}
+
+.site-main {   
+    background-color: #004047;
+}
+
+.main-title {
+ font-family: 'Livvic';
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+margin: 0;
+}
+
+
+
+.userName{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+  }
+  
+  .card-list {
+    width: 300px;
+    height:250px ;  
+    position: relative;
+    margin-left: 15px;
+    margin-top: 70px;
+    background-color: #012F34;
+  }
+
+ 
+  .list-btn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 56px;
+    height: 56px;
+    background: #F67E7E  url("../img/plus.svg") center / 16px
+      no-repeat;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  .list-btn:hover {
+    background-color: #79C8C7;
+  }
+  
+  .span {
+    width: 300px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+ 
+  
+  
+
+  .span__item {
+    width:320px ;
+    height: 75px;px ;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+ 
+
+.icons:hover path {
+  fill:#F67E7E
+}
